@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEPSI - For the love of it</title>
+    <link rel="stylesheet" href="/assets/css/n1.css">
+    <link rel="stylesheet" href="/assets/css/responsivew3band.css">
+    <link rel="stylesheet" href="/assets/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="/assets/img/icon web/Pepsi-Logo.png" type="image/x-icon" />
+
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <!-- begin nav-->
+            <!--thẻ a có thể nhắm tới môt id trong trang -->
+            <ul id="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#band">Product</a></li>
+                <li><a href="#tour">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#">
+                        More
+                        <i class="nav-arrow-down ti-angle-down"></i>
+                    </a>
+                    <ul class="subnav">
+                        <li><a href="#">Merchandise</a></li>
+                        <li><a href="#">Extras</a></li>
+                        <li><a href="#">Media</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- end nav-->
+
+            <!-- begin search button-->
+            <div class="search-btn">
+                <i class="search-icon ti-search"></i>
+            </div>
+            <div id="mobile-menu" class="mobile-menu-btn">
+                <i class="menu-mobile-icon ti-menu"></i>
+            </div>
+            <!-- end search button-->
+
+        </div>
+
+        <div id="slider">
+            <div class="text-content">
+                <h2 class="text-heading">PEPSI</h2>
+                <div class="text-description">Every PEPSI refreshes the world.</div>
+
+            </div>
+        </div>
+
+        <div id="content">
+            <!--about section thêm id="band" dể khi click vào band trên nav thì sẽ chuyển tới phần có id band-->
+            <div id="band" class="content-section">
+                <h2 class="section-heading">VỀ PEPSICO</h2>
+                <p class="section-sub-heading">We love music</p>
+                <p class="about-text">
+                    PepsiCo là một tập đoàn thực phẩm và đồ uống hàng đầu thế giới với các sản phẩm được người tiêu dùng thưởng thức hơn một tỷ lần mỗi ngày tại hơn 200 quốc gia và vùng lãnh thổ trên thế giới. Tập đoàn PepsiCo đạt doanh thu ròng khoảng 63 tỷ đô la trong
+                    năm 2016 với các nhãn hàng chủ lực bao gồm Frito-Lay, Gatorade, Pepsi-Cola, Quaker và Tropicana. Danh mục sản phẩm của PepsiCo bao gồm một loạt các sản phẩm đồ uống và sản phẩm được yêu thích với tổng cộng 22 nhãn hiệu, tạo ra khoản
+                    1 tỷ đô la mỗi doanh thu bán lẻ hàng năm.
+                </p>
+                <!--members band-->
+                <div class="row member-list">
+                    <!--member 1-->
+                    <div class="col col-third text-center">
+                        <p class="member-name">C2 Tea</p>
+                        <img src="./assets/img/band/c2tea.jpg" alt="Name" class="member-img">
+                    </div>
+                    <!--member 2-->
+                    <div class="col col-third text-center">
+                        <p class="member-name">333 BEER</p>
+                        <img src="./assets/img/band/333beer.jpg" alt="Name" class="member-img">
+                    </div>
+                    <!--member 3-->
+                    <div class="col col-third text-center">
+                        <p class="member-name">Vinamilk</p>
+                        <img src="./assets/img/band/vinamilk.jpg" alt="Name" class="member-img">
+                    </div>
+                    <div class="clear"> </div>
+                </div>
+            </div>
+            <div id="tour" class="tour-section">
+                <!--tour section-->
+                <div class="content-section">
+                    <h2 class="section-heading text-white">TOUR DATES</h2>
+                    <p class="section-sub-heading text-white">Remember to book your tickets!</p>
+                    <!--Tickets-->
+                    <ul class="tickets-list">
+                        <li>September <span class="sold-out">Sold out</span></li>
+                        <li>October <span class="sold-out">Sold out</span></li>
+                        <li>November <span class="quantity">3</span></li>
+                    </ul>
+                    <!--Places-->
+                    <div class="row places-list">
+                        <!--New York-->
+                        <div class="col col-third place-img1">
+                            <img src="./assets/img/place/messi.jpg" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Lionel Messi</h3>
+                                <p class="place-time">Sat 09 Feb 2019</p>
+                                <p class="place-desc">Lionel Messi Pepsi Bottle Flipping Challenge (2019)</p>
+                                <button class="btn js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <!--Paris-->
+                        <div class="col col-third place-img1">
+                            <img src="./assets/img/place/xuantruong.jpg" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">Lương Xuân Trường</h3>
+                                <p class="place-time">Sat 28 Nov 2019</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="btn js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+                        <!--San Francisco-->
+                        <div class="col col-third place-img1">
+                            <img src="./assets/img/place/blackpink.jpg" alt="New York" class="place-img">
+                            <div class="place-body">
+                                <h3 class="place-heading">BlackPink</h3>
+                                <p class="place-time">Sat 12 Sep 2020</p>
+                                <p class="place-desc">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                <button class="btn js-buy-ticket">Buy Tickets</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--contact section-->
+            <div id="contact" class="content-section">
+                <h2 class="section-heading">CONTACT</h2>
+                <p class="section-sub-heading">Fan? Drop a note!</p>
+                <div class="row contact-content">
+                    <div class="col col-half contact-info">
+                        <p><i class="ti-location-pin"></i>Chicago, US
+                        </p>
+                        <p><i class="ti-mobile"></i>Phone: +00 151515</p>
+                        <p><i class="ti-email"></i>Email: mail@mail.com</p>
+                    </div>
+                    <div class="col col-half contact-form">
+                        <form action="">
+                            <!-- thêm required để khi send thì hiện lên vui lòng nhập vào ô này-->
+                            <div class="row">
+                                <div class="col col-half">
+                                    <input type="name" name="" placeholder="Name" required id="" class="form-control">
+                                </div>
+                                <div class="col col-half">
+                                    <input type="email" name="" placeholder="Email" required id="" class="form-control">
+                                </div>
+                            </div>
+                            <div class="row mt-8">
+                                <div class="col col-full">
+                                    <input type="text" name="" placeholder="Message" required id="" class="form-control">
+                                </div>
+                            </div>
+                            <input class="btn pull-right mt-16" type="submit" value="SEND">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map-section">
+            <img src="/assets/img/map/map.jpg" alt="Map">
+        </div>
+        <div id="footer">
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square footer-hover "></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram footer-hover "></i></a>
+            <a href="https://web.telegram.org/z/"><i class="fa-brands fa-telegram footer-hover "></i></a>
+            <a href="https://www.pinterest.com/"><i class="fa-brands fa-pinterest-p footer-hover "></i></a>
+            <a href="https://twitter.com/?lang=vi"><i class="fa-brands fa-twitter footer-hover "></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in footer-hover "></i></a>
+            <p class="footer-p">Powered by <a href="https://www.w3schools.com/" target="_blank">w3.css</a></p>
+        </div>
+    </div>
+    <div class="modal js-modal">
+        <div class="modal-container js-modal-container">
+            <!--nút close đóng modal-->
+            <div class="modal-close js-modal-close">
+                <i class="ti-close"></i>
+            </div>
+            <!--header của modal-->
+            <header class="modal-header">
+                <i class=" modal-heading-icon ti-bag"></i> Tickets
+            </header>
+            <!--body của modal-->
+            <div class="modal-body">
+                <label for="ticket-quantity" class="modal-label">
+                    <i class="ti-shopping-cart"></i>
+                    Tickets, $15 per person
+                </label>
+                <input type="text" id="ticket-quantity" class="modal-input" placeholder="How many?">
+
+                <label for="ticket-email" class="modal-label">
+                    <i class="ti-user"></i>
+                    Send To
+                </label>
+                <input type="text" id="ticket-email" class="modal-input" placeholder="Enter email...">
+                <!--nút pay-->
+                <button id="buy-tickets">
+                    Pay <i class="ti-check"></i>
+                </button>
+            </div>
+            <!--footer của modal-->
+            <footer class="modal-footer">
+                <p class="modal-help">Need <a href="#">help?</a></p>
+            </footer>
+        </div>
+    </div>
+    <!--js của mobile-->
+    <script>
+        var header = document.getElementById('header')
+        var mobileMenu = document.getElementById('mobile-menu')
+        var headerHeight = header.clientHeight;
+
+        // đóng mở mobile menu
+        mobileMenu.onclick = function() {
+                var isClosed = header.clientHeight === headerHeight;
+                if (isClosed) {
+                    header.style.height = 'auto';
+                } else {
+                    header.style.height = null;
+                }
+
+            }
+            // tự đóng khi chọn menu
+        var menuItems = document.querySelectorAll('#nav li a[href*="#"]')
+        for (var i = 0; i < menuItems.length; i++) {
+            var menuItem = menuItems[i];
+
+            menuItem.onclick = function() {
+                header.style.height = null;
+            }
+        }
+    </script>
+    <!--js của modal-->
+    <script>
+        const buyBtns = document.querySelectorAll('.js-buy-ticket')
+        const modal = document.querySelector('.js-modal')
+        const modalContainer = document.querySelector('.js-modal-container')
+        const modalClose = document.querySelector('.js-modal-close')
+
+        // hàm hiển thị modal  mua vé (thêm class open vào modal)
+        function showBuyTickets() {
+            modal.classList.add('open')
+        }
+
+        // hàm ẩn modal mua vé (bỏ class open khỏi modal)
+        function hideBuyTickets() {
+            modal.classList.remove('open')
+        }
+
+        // lặp qua từng thẻ button và nghe hành vi click
+        for (const buyBtn of buyBtns) {
+            buyBtn.addEventListener('click', showBuyTickets)
+        }
+
+        // nghe hành vi click vào nút button
+        modalClose.addEventListener('click', hideBuyTickets)
+
+        // khi click vào khoảng không thì đóng modal
+        modal.addEventListener('click', hideBuyTickets)
+
+        // ngăn nổi bọt
+        modalContainer.addEventListener('click', function(event) {
+            event.stopPropagation()
+        })
+    </script>
+</body>
+
+
+</html>
